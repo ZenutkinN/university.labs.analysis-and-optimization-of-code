@@ -1,0 +1,9 @@
+function ex1(int a) {
+    if (a % 2 == 0) {
+        stdout("even")
+    } else {
+        stdout("odd")
+    }
+
+    return 0;
+}

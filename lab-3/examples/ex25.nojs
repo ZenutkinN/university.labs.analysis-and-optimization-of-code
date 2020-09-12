@@ -1,0 +1,10 @@
+int ariProg(int first, int step, int n) {
+    return first + step * ( n - 1 )
+}
+
+int main() {
+    stdout(ariProg(1, 3, 5))
+    stdout("\n")
+
+    return 0
+}

@@ -1,0 +1,14 @@
+int main() {
+	int i = 0
+
+	do {
+		i = i + 1
+
+		stdout(i)
+		stdout("\n")
+		
+		// выполняется пока условие
+	} while (i < 5)
+
+	return 0
+}

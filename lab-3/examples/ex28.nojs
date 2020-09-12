@@ -1,0 +1,22 @@
+int globalA = 0
+
+int test(int a, int conditionalValue) {
+    if (a == conditionalValue) {
+        return globalA
+    } else {
+        globalA = globalA + 1
+
+        return test(globalA, conditionalValue)
+    }
+
+    return 0
+}
+
+int main () {
+    int a = 0
+
+	stdout(test(a, 5))
+    stdout("\n")
+    
+	return 0
+}

@@ -1,0 +1,15 @@
+int main() {
+  int num = 0        
+
+  do {
+    stdout("Enter number from 0 to 10: ")
+    stdout("\n")
+
+    num = stdin()
+  } while (num < 0 || num > 10)
+
+  stdout("Вы ввели число: ")
+  stdout(num)
+
+  return 0
+}

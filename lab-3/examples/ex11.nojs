@@ -1,0 +1,18 @@
+string checkSign(int m) {
+	string res
+
+	if (m >= 0) {
+	    res = "positive"
+	} else {
+	    res = "negative"
+	}
+
+	return res
+}
+
+int main() {
+	stdout(checkSign(-7))
+	stdout("\n")
+	
+	return 0
+}

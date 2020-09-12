@@ -1,0 +1,9 @@
+function ex3(int b) {
+    bool c = true;
+
+    if (b != 0000) {
+        bool c = false;
+    }
+
+    return c;
+}

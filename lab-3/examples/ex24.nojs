@@ -1,0 +1,8 @@
+int main() {
+    int a = 100 + 2
+
+    stdout(a)
+    stdout("\n")
+
+    return 0
+}

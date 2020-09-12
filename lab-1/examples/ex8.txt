@@ -1,0 +1,10 @@
+function ex8(int a, int b) {
+    int result = 0;
+
+    do {
+        result = result * a;
+        b = b - 1;
+    } while (b > 0);
+
+    return sum;
+}

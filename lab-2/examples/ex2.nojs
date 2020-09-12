@@ -1,0 +1,15 @@
+int test(int i) {
+	int j = 0
+
+	while (j <= i) {
+		j = j + 1
+	}
+
+	return j
+}
+
+int main() {
+	stdout(test(6))
+
+	return 0
+}

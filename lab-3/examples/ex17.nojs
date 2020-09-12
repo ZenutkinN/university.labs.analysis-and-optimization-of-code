@@ -1,0 +1,7 @@
+// error
+
+int main(){
+	string a = "Test
+
+	return 0
+}

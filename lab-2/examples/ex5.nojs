@@ -1,0 +1,17 @@
+void test(int x, int y) {
+	stdout(x)
+	stdout(y)
+
+	if ( x != y ) {
+		y = x
+	}
+
+	stdout(x)
+	stdout(y)
+}
+
+int main() {
+	test(0, 1)
+
+	return 0
+}

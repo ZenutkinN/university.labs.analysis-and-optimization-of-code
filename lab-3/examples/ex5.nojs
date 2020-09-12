@@ -1,0 +1,23 @@
+int test(int x, int y) {
+	stdout(x)
+	stdout("\n")
+	stdout(y)
+	stdout("\n")
+
+	if ( x != y ) {
+		y = x
+	}
+
+	stdout(x)
+	stdout("\n")
+	stdout(y)
+	stdout("\n")
+
+	return 0
+}
+
+int main() {
+	test(0, 1)
+
+	return 0
+}

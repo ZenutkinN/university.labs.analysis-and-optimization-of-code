@@ -1,0 +1,20 @@
+bool test(int b) {
+	bool a
+
+	if (b != 1) {
+		a = false
+	} else {
+		a = true
+	}
+
+	return a
+}
+
+int main () {
+	int c = 5 - 3
+
+	stdout(test(c))
+    stdout("\n")
+	
+	return 0
+}

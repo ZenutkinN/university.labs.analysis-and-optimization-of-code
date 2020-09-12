@@ -1,0 +1,10 @@
+int main() {
+	int a = 0
+
+	a = stdin()
+
+	stdout(a)
+	stdout("\n")
+	
+	return 0
+}

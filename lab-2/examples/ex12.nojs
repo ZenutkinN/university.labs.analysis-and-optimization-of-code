@@ -1,0 +1,17 @@
+string test(bool strugle) {
+	string res
+
+	if (!(strugle)) {
+	    res = "It's okay"
+	} else {
+	    res = "We strugle"
+	}
+
+	return res
+}
+
+int main() {
+	stdout(test(true))
+
+	return 0
+}

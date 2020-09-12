@@ -1,0 +1,13 @@
+int test(int x, int y) {   
+    int k = x
+    x = y
+    y = k
+
+    return x
+}
+
+int main () {
+    stdout(test(10, 15))
+
+    return 0
+}

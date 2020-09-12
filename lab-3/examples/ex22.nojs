@@ -1,0 +1,6 @@
+int main () {
+	stdout("Some example")
+    stdout("\n")
+	
+	return 0
+}

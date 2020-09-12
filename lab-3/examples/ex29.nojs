@@ -1,0 +1,31 @@
+int main () {
+	int a = 0
+    int b = 1
+    int c = 2
+
+    if (a >= b) {
+        stdout(a)
+        stdout("\n")
+
+        if (b < c) {
+            stdout(c)
+            stdout("\n")
+        } else {
+            stdout(b)
+            stdout("\n")
+        }
+    } else {
+        stdout(b)
+        stdout("\n")
+
+        if (b > c) {
+            stdout(c)
+            stdout("\n")
+        } else {
+            stdout(b)
+            stdout("\n")
+        }
+    }
+    
+	return 0
+}

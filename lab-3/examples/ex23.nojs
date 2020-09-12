@@ -1,0 +1,28 @@
+bool comparison(int x, int y ) {
+	if ( x != y ) {
+		return false
+	} else {
+	    return true
+    }
+
+	return false
+}
+
+int printResult(bool result) {
+    if (result == true) {
+		stdout("Equal")
+		stdout("\n")
+	} else {
+	    stdout("Not equal")
+		stdout("\n")
+    }
+
+    return 0
+}
+
+int main() {
+	stdout(comparison(0, 1))
+	stdout("\n")
+    
+	return 0
+}

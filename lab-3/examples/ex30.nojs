@@ -1,0 +1,19 @@
+int test1() {
+    return 1
+}
+
+int test2() {
+    return 2
+}
+
+int main() {
+	int test = 0
+
+	test = test1()
+    test = test2()
+
+    stdout(test)
+    stdout("\n")
+
+	return 0
+}

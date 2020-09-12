@@ -1,0 +1,5 @@
+int main() {
+	string a = "test"
+
+	return 0
+}

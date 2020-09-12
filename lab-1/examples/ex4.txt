@@ -1,0 +1,11 @@
+function ex4() {
+    float a = 5.0;
+
+    float b = 25.0;
+
+    float c = 20.0;
+
+    boolean c = (a * a == b && b - a == c);
+
+    return 0;
+}

@@ -1,0 +1,14 @@
+int a() {
+	int x = 5
+	int y = 5
+	int z = x + y * y
+	int q = z / x
+
+	return q
+}
+
+int main() {
+	stdout(a())
+    
+	return 0
+}

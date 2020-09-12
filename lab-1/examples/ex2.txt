@@ -1,0 +1,12 @@
+// Функция
+function ex2() {
+    int a = 15;
+    int b = 23;
+
+    string name = "Test";
+
+    stdout("Sum: " + (a + b));
+    stdout(name + "print");
+
+    return 0;
+}

@@ -1,0 +1,14 @@
+int func1(int x, int y) {
+    return (x + y)
+}
+
+int func2(int x) {
+    return (func1(1, 2) - x)
+}
+
+int main() {
+	stdout(func2(3))
+    stdout("\n")
+    
+	return 0
+}

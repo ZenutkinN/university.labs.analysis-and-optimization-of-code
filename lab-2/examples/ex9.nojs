@@ -1,0 +1,15 @@
+int test(int a, int b) {
+	if (a > b) {
+		return b
+	} else {
+		return a
+	}
+
+	return 0
+}
+
+int main() {
+	stdout(test(10, 15))
+
+	return 0
+}

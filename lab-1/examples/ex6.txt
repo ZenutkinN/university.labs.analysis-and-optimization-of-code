@@ -1,0 +1,6 @@
+function ex6() {
+    bool a, b;
+
+    a = true;
+    b = a;
+}

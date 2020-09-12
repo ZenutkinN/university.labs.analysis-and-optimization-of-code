@@ -1,0 +1,14 @@
+float test(float x) {
+    float tmp = x * x
+
+    return tmp
+}
+
+int main() {
+	float a = -10.0
+
+	stdout(test(a))
+	stdout("\n")
+
+	return 0
+}

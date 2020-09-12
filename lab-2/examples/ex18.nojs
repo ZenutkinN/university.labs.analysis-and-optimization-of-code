@@ -1,0 +1,10 @@
+// error
+
+int main() {
+	int a  0
+
+	string b = 4
+	a = b
+
+	return 0
+}
