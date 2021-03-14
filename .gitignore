@@ -1,1 +1,8 @@
 reports
+*.yy.c
+*.out
+parser.cpp 
+parser.hpp 
+parser 
+tokens.cpp
+*.o  
